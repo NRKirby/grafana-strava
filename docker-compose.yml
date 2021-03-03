@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  grafana-strava:
+    image: nrkirby/grafana-strava:v1
+    ports:
+      - 3000:3000
